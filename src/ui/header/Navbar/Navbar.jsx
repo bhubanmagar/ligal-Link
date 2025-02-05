@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <>
       {/* Navbar */}
-      <header className="flex justify-between items-center py-4 px-6 md:px-8 bg-transparent shadow-md">
+      <header className="flex justify-between items-center  px-6 md:px-8 bg-transparent shadow-md">
         <div className="text-2xl font-bold">Legal Link</div>
 
         {/* Mobile Menu Button */}
@@ -27,25 +27,24 @@ const Navbar = () => {
           )}
         </button>
 
-        {/* Navigation for larger screens */}
-        <nav className="hidden md:flex items-center gap-8 text-sm">
-          <a href="#about" className="hover:text-gray-600">
-            ABOUT
-          </a>
-          <a href="#playbook" className="hover:text-gray-600">
-            SERVICES
-          </a>
-          <a href="#contact" className="hover:text-gray-600">
-            CONTACT
-          </a>
-        </nav>
-
         {/* Actions for larger screens */}
         <div className="hidden md:flex items-center gap-4">
+          {/* Navigation for larger screens */}
+          <nav className=" md:flex items-center gap-8 text-sm py-6">
+            <a href="#about" className="hover:text-gray-600">
+              ABOUT
+            </a>
+            <a href="#playbook" className="hover:text-gray-600">
+              SERVICES
+            </a>
+            <a href="#contact" className="hover:text-gray-600">
+              CONTACT
+            </a>
+          </nav>
           <a href="#" className="hover:text-gray-600 text-sm">
             Legal-link@closingmedia.com
           </a>
-          <button className="bg-blue-700 hover:bg-blue-800 text-white py-2 px-4 rounded-full text-sm">
+          <button className="bg-blue-300 hover:bg-blue-800 text-white py-2 px-4  text-sm">
             WORK WITH US
           </button>
         </div>

@@ -1,4 +1,4 @@
-import unity from "../../assets/logo/unity.png";
+import branch from "../../assets/logo/branch.png";
 import user from "../../assets/logo/user.png";
 export const ClientSection = () => {
   return (
@@ -39,31 +39,31 @@ export const ClientSection = () => {
         {/* right div  */}
         <div className="w-1/2 grid grid-cols-3 gap-8 mt-6">
           <div className="shadow flex items-center justify-center h-32">
-            <img src={unity} alt="unity" className="w-20 " />
+            <img src={branch} alt="branch" className="w-20 " />
           </div>
           <div className="shadow flex items-center justify-center h-32">
-            <img src={unity} alt="unity" className="w-20 " />
+            <img src={branch} alt="branch" className="w-20 " />
           </div>
           <div className="shadow flex items-center justify-center h-32">
-            <img src={unity} alt="unity" className="w-20 " />
+            <img src={branch} alt="branch" className="w-20 " />
           </div>
           <div className="shadow flex items-center justify-center h-32">
-            <img src={unity} alt="unity" className="w-20 " />
+            <img src={branch} alt="branch" className="w-20 " />
           </div>
           <div className="shadow flex items-center justify-center h-32">
-            <img src={unity} alt="unity" className="w-20 " />
+            <img src={branch} alt="branch" className="w-20 " />
           </div>
           <div className="shadow flex items-center justify-center h-32">
-            <img src={unity} alt="unity" className="w-20 " />
+            <img src={branch} alt="branch" className="w-20 " />
           </div>
           <div className="shadow flex items-center justify-center h-32">
-            <img src={unity} alt="unity" className="w-20 " />
+            <img src={branch} alt="branch" className="w-20 " />
           </div>
           <div className="shadow flex items-center justify-center h-32">
-            <img src={unity} alt="unity" className="w-20 " />
+            <img src={branch} alt="branch" className="w-20 " />
           </div>
           <div className="shadow flex items-center justify-center h-32">
-            <img src={unity} alt="unity" className="w-20 " />
+            <img src={branch} alt="branch" className="w-20 " />
           </div>
         </div>
       </div>
