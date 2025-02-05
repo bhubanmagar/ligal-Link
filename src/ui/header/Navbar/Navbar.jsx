@@ -44,7 +44,7 @@ const Navbar = () => {
             </a>
           </nav>
           <a href="#" className="hover:text-gray-900 text-sm">
-            Legal-link@closingmedia.com
+            Legallink@closingmedia.gov
           </a>
           <button className="bg-blue-300 hover:bg-blue-900 text-white py-2 px-4  text-sm ">
             WORK WITH US

@@ -33,7 +33,7 @@ export const HeroSection = () => {
             <img
               src={pattern}
               alt="cubic image pattern"
-              className="w-full object-cover h-full "
+              className="w-full object-cover h-full md:ml-21"
             />
           </div>
         </div>
