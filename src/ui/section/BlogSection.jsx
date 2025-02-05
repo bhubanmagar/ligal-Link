@@ -3,16 +3,16 @@ import sectionImg from "../../assets/client-pattern-image.png";
 const BlogSection = () => {
   return (
     <>
-      <div className="relative  h-screen w-full bg-gray-200 flex flex-col sm:flex-row justify-center items-center gap-4 p-2 sm:p-0">
-        <div className="absolute right-0 top-88 z-0">
+      <div className="relative  min-h-screen w-full bg-gray-200 flex flex-col sm:flex-row justify-center items-center gap-4 p-2">
+        <div className="hidden md:block md:absolute right-0 top-88 z-0">
           <img
             src={sectionImg}
             alt="cubic image pattern"
-            className="h-[252px] w-32 pt-1"
+            className="md:h-[252px] md:w-32 pt-1"
           />
         </div>
         {/* Card 1 */}
-        <div className=" w-full sm:w-82 p-4 overflow-hidden flex flex-col justify-start">
+        <div className=" w-full sm:w-82 md:pl-0 p-4 overflow-hidden flex flex-col justify-start">
           <h2 className="uppercase text-blue-700 m-3 text-sm">The Playbook</h2>
           <h2 className="uppercase text-gray-500 text-xl font-bold mt-10">
             Read Our Blog fro <br />
@@ -24,7 +24,7 @@ const BlogSection = () => {
             repellendus dignissimos nobis? Provident, non iure! Aliquid
           </p>
           <div>
-            <button className="rounded mt-9 bg-blue-600 px-7 py-1  text-white hover:text-blue-600 transition-colors">
+            <button className="rounded mt-9 bg-blue-600 px-7 py-1  text-white hover:text-black transition-colors">
               View Playbook
             </button>
           </div>

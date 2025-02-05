@@ -7,7 +7,9 @@ const Navbar = () => {
     <>
       {/* Navbar */}
       <header className="flex justify-between items-center  px-6 md:px-8 bg-transparent shadow-md">
-        <div className="text-2xl font-bold">Legal Link</div>
+        <div className="text-2xl font-bold md:pl-18">
+          <a href="/">Legal Link</a>
+        </div>
 
         {/* Mobile Menu Button */}
         <button
@@ -31,28 +33,28 @@ const Navbar = () => {
         <div className="hidden md:flex items-center gap-4">
           {/* Navigation for larger screens */}
           <nav className=" md:flex items-center gap-8 text-sm py-6">
-            <a href="#about" className="hover:text-gray-600">
+            <a href="#about" className="hover:text-gray-900">
               ABOUT
             </a>
-            <a href="#playbook" className="hover:text-gray-600">
+            <a href="#playbook" className="hover:text-gray-900">
               SERVICES
             </a>
-            <a href="#contact" className="hover:text-gray-600">
+            <a href="#contact" className="hover:text-gray-900">
               CONTACT
             </a>
           </nav>
-          <a href="#" className="hover:text-gray-600 text-sm">
+          <a href="#" className="hover:text-gray-900 text-sm">
             Legal-link@closingmedia.com
           </a>
-          <button className="bg-blue-300 hover:bg-blue-800 text-white py-2 px-4  text-sm">
+          <button className="bg-blue-300 hover:bg-blue-900 text-white py-2 px-4  text-sm ">
             WORK WITH US
           </button>
         </div>
 
         {/* Mobile Navigation - Toggle Menu */}
         {isOpen && (
-          <div className="absolute top-16 right-1 w-60 bg-gray-600 shadow-lg md:hidden flex flex-col items-center gap-4 py-4">
-            <a href="#about" className="hover:text-gray-600">
+          <div className="absolute top-16 right-1 w-60 bg-gray-300 shadow-lg md:hidden flex flex-col items-center gap-4 py-4 text-black">
+            <a href="#about" className="hover:text-white ">
               ABOUT
             </a>
             <a href="#playbook" className="hover:text-gray-600">
