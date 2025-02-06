@@ -1,19 +1,19 @@
-import branch from "../../assets/logo/branch.png";
-import user from "../../assets/logo/user.png";
+import branch from "../../../assets/logo/branch.png";
+import user from "../../../assets/logo/user.png";
 export const ClientSection = () => {
   return (
     <>
       <div className="relative min-h-screen w-full bg-white flex flex-col  md:flex-row items-center justify-end">
         {/* left floating div */}
-        <div className="w-full order-first  md:absolute bg-white md:w-1/2 md:-top-40 md:left-0 ">
-          <div className="md:h-16 h-10 w-full text-center text-gray-600 md:mt-10 text-3xl md:text-4xl">
+        <div className="order-first md:absolute bg-white md:w-[50%] w-full  md:-top-40 md:left-0 ">
+          <div className="md:h-16 h-10 w-full text-center text-gray-600 md:mt-10 mt-9 text-3xl md:text-4xl">
             <h1>
               Our Happy{" "}
               <span className="underline text-blue-900 ">Clients</span>
             </h1>
           </div>
-          <div className="bg-gray-200 w-full mt-8 md:p-8 text-black">
-            <p className="pt-2 text-sm md:text-base md:pl-20 p-3">
+          <div className="bg-gray-200 w-full mt-8 md:p-8  text-black">
+            <p className="pt-2 text-sm md:text-base md:pl-20 md:pt-16 md:pb-10  md:pr-1 p-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Reiciendis est facilis earum ipsum voluptatum fuga inventore
               sapiente, labore quis dicta unde iure modi animi ipsam similique
