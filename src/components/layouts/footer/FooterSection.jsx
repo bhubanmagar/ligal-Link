@@ -1,5 +1,5 @@
 import { Icon } from "@iconify/react";
-import user from "../../assets/logo/user.png";
+import user from "../../../assets/logo/user.png";
 
 export const FooterSection = () => {
   return (
@@ -7,7 +7,7 @@ export const FooterSection = () => {
       {/* Top Section */}
       <div className="bg-blue-500 flex flex-col md:flex-row items-center justify-between gap-6 md:gap-10 p-4 md:p-8">
         {/* Left: Logo & Text */}
-        <div className="flex items-center gap-4 md:gap-8 text-center md:text-left md:pl-20">
+        <div className="flex flex-col md:flex-row items-start w-full md:w-[50%] gap-4 md:gap-8 text-center md:text-left md:pl-20">
           <img
             src={user}
             alt="user logo"
@@ -20,29 +20,29 @@ export const FooterSection = () => {
         </div>
 
         {/* Right: Email Input Section */}
-        <div className="w-full md:w-1/2 flex flex-col md:flex-row items-center gap-4 md:gap-0">
+        <div className="md:w-[50%] w-full flex flex-col md:flex-row items-start gap-4 md:gap-0">
           <div className="flex items-center border-b-2 border-blue-900 w-full md:w-auto">
             <Icon
               icon="fontisto:email"
               style={{ color: "white", height: "20px", width: "20px" }}
-              className="text-gray-400 w-6 h-6 md:w-8 md:h-8"
+              className="text-gray-400 h-6 md:w-8 md:h-8"
             />
             <input
               type="email"
               placeholder="yourmail.com"
               className="bg-transparent text-white py-2 px-3 outline-none w-full md:w-64"
             />
-            <button className="bg-blue-900 hover:bg-blue-700 text-white py-2 px-4 text-sm md:text-base w-full md:w-auto ">
+            <button className="bg-blue-900 hover:bg-blue-700 text-white py-3 px-4 md:px-6 text-sm md:text-sm w-full md:w-auto ">
               GET STARTED →
             </button>
           </div>
         </div>
       </div>
 
-      {/* Bottom Section */}
+      {/* secont col */}
       <div className="bg-blue-900 flex flex-col md:flex-row items-center justify-between p-6 md:p-8">
         {/* Left: Contact Info */}
-        <div className="flex flex-col md:flex-row items-center gap-4 text-white text-sm text-center md:text-left md:pl-20">
+        <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8 text-white text-sm text-center md:text-left md:pl-20">
           <img
             src={user}
             alt="user logo"

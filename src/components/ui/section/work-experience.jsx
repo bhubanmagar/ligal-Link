@@ -1,5 +1,5 @@
-import legalLink from "../../assets/logo/legalLink.png";
-export const ExperienceSection = () => {
+import legalLink from "../../../assets/logo/legalLink.png";
+export const WorkExperience = () => {
   return (
     <>
       <div className="bg-white p-8 md:px-24 ">
@@ -13,7 +13,7 @@ export const ExperienceSection = () => {
                 Mighty
               </span>
             </h2>
-            <p className="text-gray-500">
+            <p className="text-gray-500 sm:text-md">
               Our performance metrics speak for themselves. <br />
               <span className="text-sm">
                 (all measured against the platform average)
@@ -23,27 +23,27 @@ export const ExperienceSection = () => {
 
           {/* Card 1 */}
           <div className="bg-blue-400 text-white p-6  shadow-md text-center ">
-            <h3 className="text-4xl font-bold">92%</h3>
-            <p className="text-sm mt-2 uppercase tracking-wide">
+            <h3 className="text-sm md:text-4xl font-bold">92%</h3>
+            <p className="text-sm  mt-2 uppercase tracking-wide">
               Cost Per Lead Decrease
             </p>
           </div>
 
           {/* Card 2 */}
           <div className="bg-blue-600 text-white p-6 shadow-md text-center">
-            <h3 className="text-4xl font-bold">+102%</h3>
+            <h3 className="text-sm md:text-4xl font-bold">+102%</h3>
             <p className="text-sm mt-2 uppercase tracking-wide">CTR Increase</p>
           </div>
 
           {/* Card 3 */}
           <div className="bg-gray-400 text-white p-6 shadow-md text-center">
-            <h3 className="text-4xl font-bold">+120%</h3>
+            <h3 className="text-sm md:text-4xl font-bold">+120%</h3>
             <p className="text-sm mt-2 uppercase tracking-wide">Add One More</p>
           </div>
 
           {/* Card 4 */}
           <div className="bg-blue-900 text-white p-6 shadow-md text-center">
-            <h3 className="text-4xl font-bold">+220%</h3>
+            <h3 className=" text-sm md:text-4xl font-bold">+220%</h3>
             <p className="text-sm mt-2 uppercase tracking-wide">
               Inmail Open Rate Increase
             </p>
@@ -51,7 +51,7 @@ export const ExperienceSection = () => {
 
           {/* Card 5 */}
           <div className="bg-blue-500 text-white p-6 shadow-md text-center">
-            <h3 className="text-4xl font-bold">+110%</h3>
+            <h3 className="text-sm md:text-4xl font-bold">+110%</h3>
             <p className="text-sm mt-2 uppercase tracking-wide">
               Engagement Rate Increase
             </p>
